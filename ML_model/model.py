@@ -10,10 +10,7 @@ y = data['artists']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state=42)
 
-X_train1 = X_train[0:1000]
-y_train1 = y_train[0:1000]
-
 clf = RandomForestClassifier(n_estimators=10)
-clf = clf.fit(X_train1, y_train1)
+clf = clf.fit(X_train, y_train)
 
 pickle.dump(clf, open('model.pkl', 'wb'))

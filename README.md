@@ -1,5 +1,5 @@
 # Guess-the-Artist
-The project detects a song’s artists based on specific delivered parameters from the song. The ML engineering creating the model detect who might be the artist, to do so you will be using the a dataset of . the model in a REST API endpoint (by Docker) that will be consumed by the front end application.
+The project detects a song’s artists based on specific introduced parameters from the song. 
 
 ## Project Instructions
 

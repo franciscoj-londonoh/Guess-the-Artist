@@ -3,7 +3,7 @@ The project detects a song’s artists based on specific introduced parameters f
 
 ## Project Instructions
 
-### 1. 
+### Deployment of the ML model with Docker
 
 
 ## Project Components
@@ -21,9 +21,7 @@ The project detects a song’s artists based on specific introduced parameters f
 |- app.py
 |- Dockerfile
 |- ML_model
-|-- data.cs
-|-- model.pkl
-|-- model.py
+|--- model.py
 |- base.html
 |- home.html
 |- index.html
